@@ -6,3 +6,4 @@ data/processed/
 data/archive/
 .vscode/
 .DS_Store
+.venv/
