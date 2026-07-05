@@ -188,5 +188,5 @@ Possible upgrades include:
 
 ## Author
 
-Goshen Eric
-Data Analyst | Aspiring Data Engineer
+Eric Akwete Ajavon
+Data Analyst | Data Engineer
