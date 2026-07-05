@@ -1,0 +1,6 @@
+order_id,order_date,customer,product,quantity,unit_price,region
+1,2026-07-01,Ama,Laptop,1,5500,Greater Accra
+2,2026-07-01,Kofi,Mouse,3,120,Ashanti
+3,2026-07-02,Esi,Keyboard,2,250,Western
+4,2026-07-02,Yaw,Monitor,1,1500,Northern
+5,2026-07-03,Akua,Laptop,2,5500,Greater Accra
