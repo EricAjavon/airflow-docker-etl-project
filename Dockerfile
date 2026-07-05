@@ -1,8 +1,14 @@
-FROM apache/airflow:3.0.0
+FROM apache/airflow:3.2.2
 
 USER root
 
-RUN apt-get update && apt-get install -y gcc && apt-get clean
+RUN apt-get update && apt-get install -y \
+    gcc \
+    g++ \
+    make \
+    libffi-dev \
+    python3-dev \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 USER airflow
 
