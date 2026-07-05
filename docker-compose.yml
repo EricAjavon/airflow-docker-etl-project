@@ -34,7 +34,7 @@ services:
                --firstname Eric
                --lastname Ajavon
                --role Admin
-               --email admin@example.com || true"
+               --email ea.ajavon@gmail.com || true"
 
   airflow-webserver:
     build: .
