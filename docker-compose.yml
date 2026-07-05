@@ -52,8 +52,7 @@ services:
       - ./data:/opt/airflow/data
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
-    command: airflow webserver
-
+    command: airflow api-server
   airflow-scheduler:
     build: .
     container_name: airflow_scheduler
